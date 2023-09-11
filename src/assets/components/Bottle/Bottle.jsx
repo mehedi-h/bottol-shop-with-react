@@ -6,10 +6,10 @@ const Bottle = ({bottle, handleAddCart}) => {
 
     return (
         <div className="bottle">
-            <h3>Bottle : {name}</h3>
+            <h4>Bottle : {name}</h4>
             <img src={img} alt={name} />
             <p>Price : ${price}</p>
-            <button onClick={() => handleAddCart(bottle)}>Add to cart</button>
+            <button onClick={() => handleAddCart(bottle)} className='cart-btn'>Add to cart</button>
         </div>
     );
 };

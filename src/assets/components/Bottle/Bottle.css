@@ -1,8 +1,18 @@
 .bottle {
-    border: 3px solid hsla(150, 98%, 53%, 0.932);
-    pad: 10px;
+    border: 3px solid lightgreen;
+    padding: 10px;
     border-radius: 30px 0px 30px 0px;
 }
 .bottle img {
     width: 150px;
+}
+.cart-btn {
+    background-color: steelblue;
+    color: white;
+}
+.cart-btn:hover {
+    background-color: orchid;
+    color: white;
+    cursor: pointer;
+    border-color: orchid;
 }
